@@ -1,0 +1,19 @@
+# Data and database: never commit these
+data/
+*.duckdb
+*.duckdb.wal
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets: never commit credentials
+kaggle.json
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
